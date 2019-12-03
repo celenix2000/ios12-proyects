@@ -56,15 +56,31 @@
 		845B16D6239628AC0098756C /* 01-iamrich */ = {
 			isa = PBXGroup;
 			children = (
+				845B16EC23962CE50098756C /* Controllers */,
+				845B16EB23962CC90098756C /* Storyboard */,
 				845B16D7239628AC0098756C /* AppDelegate.swift */,
 				845B16D9239628AC0098756C /* SceneDelegate.swift */,
-				845B16DB239628AC0098756C /* ViewController.swift */,
-				845B16DD239628AC0098756C /* Main.storyboard */,
 				845B16E0239628C10098756C /* Assets.xcassets */,
-				845B16E2239628C10098756C /* LaunchScreen.storyboard */,
 				845B16E5239628C10098756C /* Info.plist */,
 			);
 			path = "01-iamrich";
+			sourceTree = "<group>";
+		};
+		845B16EB23962CC90098756C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				845B16DD239628AC0098756C /* Main.storyboard */,
+				845B16E2239628C10098756C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		845B16EC23962CE50098756C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				845B16DB239628AC0098756C /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +303,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 92YZWJMD97;
 				INFOPLIST_FILE = "01-iamrich/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 92YZWJMD97;
 				INFOPLIST_FILE = "01-iamrich/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
